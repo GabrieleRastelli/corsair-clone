@@ -1,0 +1,43 @@
+.external-circle {
+    position:absolute;
+    top:0px;
+    left:0px;
+    border-radius: 50%;
+    background: #102dcf;
+    width: 400px;
+    height: 400px;
+}
+.internal-circle {
+    border-radius: 50%;
+    background: #458fd4;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0 auto;
+}
+.dot{
+    position:absolute;
+    top:55px;
+    left:55px;
+    width:25px;
+    height:25px;
+    background:rgb(156, 75, 8);
+    border-radius:50%;
+}
+.rounded-btn {
+    position:absolute;
+    top:125px;
+    left:125px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #e0a80f;
+    background-color: #e4c160;
+    /* background-image: url('/res/swap.png') ;
+    background-repeat: no-repeat;
+    background-size: 140px; */
+}
