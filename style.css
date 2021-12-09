@@ -30,12 +30,13 @@
 }
 .rounded-btn {
     position:absolute;
-    top:125px;
-    left:125px;
-    height: 150px;
-    width: 150px;
+    top:150px;
+    left:150px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     border: 1px solid #e0a80f;
     background: #e4c160 url('/res/swap.png') no-repeat center;
     background-size: 80px; 
+    z-index: 2;
 }
